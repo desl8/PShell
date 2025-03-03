@@ -1,9 +1,10 @@
-Paste this into a powershell and restart the terminal
+## Paste this command into a powershell and restart the terminal
 
 New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Browser/Fake-Install-Win10-11.ps1"; $content | Out-File -FilePath $profile;
 
 Replace the url with some other file if you want.
 
+## Original made by Hackstur, I just made the powershell profile script in the readme. Go check his profile out
 
 | TYPE          | Description                                    | 
 |-------------  |------------------------------------------------|
@@ -24,40 +25,6 @@ Replace the url with some other file if you want.
 | **Wallpapers**| Hasselhoff & Carmen de mairena wallpapers      |
 | **Tools**     | Builders for music or wallpaper payloads       |
 
-
-
-<!-- INSTALLATION  SECTION -->
-
-## 🏭 Installation
-1. Download/Fork/Copy/Get this project.  
-1. Edit as you want  .
-1. Place it on the folder of your choice.
-1. Run a script.
-
-#### Deployment ideas
-
-You can access to the computer and run the script as usual, or you can try tools like:
-
-* P4wnP1 ALOA https://github.com/RoganDawes/P4wnP1_aloa
-* RubberDucky https://shop.hak5.org/products/usb-rubber-ducky-deluxe
-* Malduino https://malduino.com/
-
-#### Requirements  
-* Windows host who run PowerShell scripting
-
-<!-- CONTRIBUTE -->
-
-## 💎 Contribute
-Feel free to send us a message for anything. We'd love to ear about improve!.
-
-Please, have a look at the [Contributor Covenant][contributor covenant].
-
-<!-- TEAM -->
-
-## 🏀 Team
-Only me.
-
-<!-- LICENSE -->
 ## 🎓 License  
 <sub> © 2018 Hackstur </sub>  
 
