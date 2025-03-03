@@ -1,6 +1,6 @@
 ## Paste this command into a powershell and restart the terminal
 
-New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Browser/Fake-Install-Win10-11.ps1"; $content | Out-File -FilePath $profile;
+`New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Browser/Fake-Install-Win10-11.ps1"; $content | Out-File -FilePath $profile;`
 
 Replace the url with some other file if you want.
 
