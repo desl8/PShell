@@ -14,7 +14,6 @@ Replace the url with some other file if you want.
 | **Browser**   | Video Pranks (Rick-Roll, Gandalf-Sax, etc)     | 
 | **Browser**   | Tab & Window Explosion Pranks                  | 
 | **ForkBomb**  | 5 types of Powershell ForkBombs                | 
-| **NSFW**      | Shortcuts that reboots computer                | 
 | **Sound**     | Play Beep music (Happy Birthday, Super Mario..)| 
 | **Sound**     | Play embed music file (Imperial March)         |
 | **Sound**     | Text to Speech Jokes or Quotes                 |
